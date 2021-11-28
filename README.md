@@ -3,7 +3,7 @@
 ## Overview:
 This program is intended to solve, plot, and model non-linear solutions. This program will eventually have a full GUI and apply parallel processing using openACC.
 
-## Dependacies (in the future...):
+## Dependancies (in the future...):
 * QT 5.12 
 * pgcc compiler (c / c++)
 
