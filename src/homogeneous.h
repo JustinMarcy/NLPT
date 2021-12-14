@@ -10,7 +10,7 @@ class Homogeneous {
     
     public:
         Homogeneous();
-        std::vector<float> calc(std::vector<float, std::allocator<float> > cnsts,  double test);
+        std::vector<float> calc(std::vector<float, std::allocator<float> > cnsts, unsigned int muc_type, int order);
 
 };
 

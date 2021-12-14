@@ -6,6 +6,7 @@
 
 int main() {
     // Initialize variables
+    
     double test = 5.3;
     std::vector<float, std::allocator<float>> cnsts = {2.4, 5.2, 6.2};
     std::vector<int, std::allocator<int>> derivs = {0, 0, 1, 2};
@@ -22,7 +23,7 @@ int main() {
 
     // Execute solution
     Homogeneous myclass;
-    result = myclass.calc(cnsts, test);
+    result = myclass.calc(cnsts, 0, 2);
 
     for (int i=0; i < result.size(); i++) {
         std::cout<<result[i]<<std::endl;
