@@ -1,5 +1,5 @@
-#include"homogeneous.h"
-#include"roots.h"
+#include"include/homogeneous.h"
+#include"include/roots.h"
 #include<iostream>
 #include<cmath>
 

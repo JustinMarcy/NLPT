@@ -3,15 +3,15 @@
 #include<string>
 
 
-class Forms {
-    public:
-        struct components {
+// class Forms {
+//     public:
+//         struct components {
 
-        } components;
+//         } components;
 
-        struct forms
-        std::string A = "A";
-        std::string 
-};
+//         struct forms
+//         std::string A = "A";
+//         std::string 
+// };
 
 #endif
