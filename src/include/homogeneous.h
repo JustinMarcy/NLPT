@@ -1,15 +1,18 @@
 #ifndef HOMOGENEOUS_H
 #define HOMOGENEOUS_H
 #include<vector>
+#include<string>
 
 class Homogeneous {
     private:
         std::vector<float> LHS;
         std::vector<float> roots;
+        std::vector<std::string> generalForm;
 
     
     public:
         Homogeneous();
+        void getGeneral(std::vector<std::string> parts);
         std::vector<float> calc(std::vector<float, std::allocator<float> > cnsts, unsigned int muc_type, int order);
 
 };
