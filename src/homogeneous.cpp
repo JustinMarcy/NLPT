@@ -3,11 +3,11 @@
 #include<iostream>
 #include<cmath>
 
-Homogeneous::Homogeneous() {};
+Homogeneous::Homogeneous() {}
 
 void Homogeneous::getGeneral(std::vector<std::string> parts) {
     
-};
+}
 
 std::vector<float> Homogeneous::calc(std::vector<float, std::allocator<float>> cnsts,  unsigned int muc_type, int order) {
     std::vector<float> result;
@@ -20,4 +20,4 @@ std::vector<float> Homogeneous::calc(std::vector<float, std::allocator<float>> c
         result.push_back(qroots.quad_roots.imagin);
     }
     return result;
-};
+}

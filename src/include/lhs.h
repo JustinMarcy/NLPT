@@ -3,11 +3,21 @@
 #include<vector>
 #include<variant>
 #include<string>
-// #include<boost>
 
-template<typename T>
-class convert_LHS : boost::static_visitor<> {
+class Lhs {
+    public:
+        std::vector<std::string> data;
+        std::vector<float> cnsts;
+        std::vector<std::string> vars;
+
+        void addElem(std::string arg) {
+            data.push_back(arg);
+        }
+
+        
+
 
 };
+
 
 #endif
