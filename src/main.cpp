@@ -26,8 +26,8 @@ int main() {
     Homogeneous myclass;
     result = myclass.calc(cnsts, 0, 2);
 
-    for (int i=0; i < result.size(); i++) {
-        std::cout<<result[i]<<std::endl;
+    for (const auto i : result) {
+        std::cout<<i<<'\n';
     }
     return EXIT_SUCCESS;
 }

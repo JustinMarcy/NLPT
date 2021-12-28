@@ -29,6 +29,6 @@ homogeneous.o: homogeneous.cpp
 order.o: order.cpp 
 		g++ -c $(OPT) $(INC) order.cpp 
 clean:
-		$(RM) *.o *.out *~ *.ghc
+		$(RM) *.o *.out *~ *.ghc *.exe
 
 .PHONY: all clean
